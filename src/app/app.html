@@ -2,7 +2,7 @@
 <nav class="navbar" [class.scrolled]="isScrolled()">
   <div class="container nav-container">
     <a href="#" class="logo">Janith<span>.Dev</span></a>
-    
+
     <ul class="nav-links" [class.active]="isMenuOpen()">
       <li><a href="#about" (click)="closeMenu()">About</a></li>
       <li><a href="#skills" (click)="closeMenu()">Skills</a></li>
@@ -30,20 +30,36 @@
       <h1 class="name">Janith</h1>
       <h2 class="title">Full-Stack <span class="text-gradient">Software Engineer</span></h2>
       <p class="tagline">
-        Building scalable, beautiful, and user-centered digital experiences with 3+ years of expertise. I bridge the gap between design and complex backend logic.
+        Building scalable, beautiful, and user-centered digital experiences with 3+ years of
+        expertise. I bridge the gap between design and complex backend logic.
       </p>
       <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">View Projects <i class="ph ph-arrow-right"></i></a>
+        <a href="#projects" class="btn btn-primary"
+          >View Projects <i class="ph ph-arrow-right"></i
+        ></a>
         <a href="#contact" class="btn btn-secondary">Contact Me</a>
       </div>
       <div class="social-links">
-        <a href="#" target="_blank" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
-        <a href="#" target="_blank" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+        <a href="https://github.com/mihiranga-official" target="_blank" aria-label="GitHub">
+          <i class="ph ph-github-logo"></i>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/mihirangaofficial?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
       </div>
     </div>
-    <div class="hero-visual animate-fade-in" style="animation-delay: 0.2s;">
+    <div class="hero-visual animate-fade-in" style="animation-delay: 0.2s">
       <div class="avatar-blob">
-        <img src="https://images.unsplash.com/photo-1555952517-2e8e729e0b44?auto=format&fit=crop&w=800&q=80" alt="Janith - Software Engineer" class="avatar">
+        <img
+          src="/IMG_7072.PNG"
+          alt="Janith - Software Engineer"
+          class="avatar"
+        />
       </div>
     </div>
   </div>
@@ -55,9 +71,20 @@
     <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
     <div class="about-content">
       <div class="about-text">
-        <p>I am a passionate software engineer who thrives on solving complex problems and building robust applications. Over the past 3 years, I've honed my skills in both front-end aesthetics and back-end architecture.</p>
-        <p>My mindset revolves around continuous growth, product thinking, and engineering excellence. I don't just write code; I strive to understand the business value and the user journey to create impactful solutions.</p>
-        <p>Currently looking for exciting opportunities where I can contribute to challenging projects, either locally in New Zealand or on a remote global scale.</p>
+        <p>
+          I am a passionate software engineer who thrives on solving complex problems and building
+          robust applications. Over the past 3 years, I've honed my skills in both front-end
+          aesthetics and back-end architecture.
+        </p>
+        <p>
+          My mindset revolves around continuous growth, product thinking, and engineering
+          excellence. I don't just write code; I strive to understand the business value and the
+          user journey to create impactful solutions.
+        </p>
+        <p>
+          Currently looking for exciting opportunities where I can contribute to challenging
+          projects, either locally in Sri Lanka or on a remote global scale.
+        </p>
       </div>
       <div class="about-stats">
         <div class="stat-card">
@@ -82,7 +109,7 @@
   <div class="container">
     <h2 class="section-title">My <span class="text-gradient">Skills</span></h2>
     <p class="section-subtitle">Technologies and tools I use to bring ideas to life.</p>
-    
+
     <div class="skills-grid">
       <div class="skill-category glass">
         <h3>Frontend</h3>
@@ -94,7 +121,7 @@
           <span class="tag"><i class="ph ph-file-html"></i> HTML/CSS</span>
         </div>
       </div>
-      
+
       <div class="skill-category glass">
         <h3>Backend</h3>
         <div class="skill-tags">
@@ -124,17 +151,25 @@
 <section class="section projects glass-section" id="projects">
   <div class="container">
     <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
-    <p class="section-subtitle">A selection of recent work highlighting my problem-solving skills.</p>
-    
+    <p class="section-subtitle">
+      A selection of recent work highlighting my problem-solving skills.
+    </p>
+
     <div class="projects-grid">
       <!-- Project 1 -->
       <div class="project-card glass">
         <div class="project-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Dashboard">
+          <img
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80"
+            alt="E-Commerce Dashboard"
+          />
         </div>
         <div class="project-info">
           <h3>Enterprise E-Commerce Dashboard</h3>
-          <p>A comprehensive dashboard for managing inventory, sales, and analytics. Built with performance and scalability in mind.</p>
+          <p>
+            A comprehensive dashboard for managing inventory, sales, and analytics. Built with
+            performance and scalability in mind.
+          </p>
           <div class="project-tech">
             <span>Angular</span>
             <span>Node.js</span>
@@ -150,11 +185,17 @@
       <!-- Project 2 -->
       <div class="project-card glass">
         <div class="project-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Task Management System">
+          <img
+            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+            alt="Task Management System"
+          />
         </div>
         <div class="project-info">
           <h3>Real-time Task Manager</h3>
-          <p>A collaborative project management tool featuring real-time updates, kanban boards, and team chat integration.</p>
+          <p>
+            A collaborative project management tool featuring real-time updates, kanban boards, and
+            team chat integration.
+          </p>
           <div class="project-tech">
             <span>React</span>
             <span>TypeScript</span>
@@ -170,11 +211,17 @@
       <!-- Project 3 -->
       <div class="project-card glass">
         <div class="project-img-wrapper">
-          <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=600&q=80" alt="Financial App">
+          <img
+            src="https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&w=600&q=80"
+            alt="Financial App"
+          />
         </div>
         <div class="project-info">
           <h3>FinTech Analytics Portal</h3>
-          <p>Secure financial portal for data visualization and reporting, adhering to strict security standards.</p>
+          <p>
+            Secure financial portal for data visualization and reporting, adhering to strict
+            security standards.
+          </p>
           <div class="project-tech">
             <span>Angular</span>
             <span>Java</span>
@@ -195,20 +242,29 @@
   <div class="container">
     <h2 class="section-title">Work <span class="text-gradient">Experience</span></h2>
     <p class="section-subtitle">My professional journey and achievements.</p>
-    
+
     <div class="timeline">
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-content glass">
           <div class="timeline-header">
-            <h3>Full-Stack Software Engineer</h3>
+            <h3>Front-End Software Engineer</h3>
             <span class="timeline-date">2022 - Present</span>
           </div>
-          <h4 class="company">Tech Solutions Inc.</h4>
+          <h4 class="company">Damro Industries</h4>
           <ul>
-            <li>Spearheaded the migration of a legacy Angular application to the latest version, improving load times by 40%.</li>
-            <li>Designed and implemented scalable RESTful APIs using Node.js and Express to support mobile and web clients.</li>
-            <li>Mentored junior developers and instituted code review best practices, enhancing team productivity.</li>
+            <li>
+              Spearheaded the migration of a legacy Angular application to the latest version,
+              improving load times by 40%.
+            </li>
+            <li>
+              Designed and implemented scalable RESTful APIs using Node.js and Express to support
+              mobile and web clients.
+            </li>
+            <li>
+              Mentored junior developers and instituted code review best practices, enhancing team
+              productivity.
+            </li>
           </ul>
         </div>
       </div>
@@ -218,12 +274,18 @@
         <div class="timeline-content glass">
           <div class="timeline-header">
             <h3>Frontend Developer</h3>
-            <span class="timeline-date">2021 - 2022</span>
+            <span class="timeline-date">2021 - 2024</span>
           </div>
-          <h4 class="company">Creative Digital Agency</h4>
+          <h4 class="company">Virtusa Pvt Ltd</h4>
           <ul>
-            <li>Developed responsive, interactive, and highly accessible web interfaces for various high-profile clients.</li>
-            <li>Collaborated closely with UX/UI designers to translate Figma mockups into pixel-perfect code.</li>
+            <li>
+              Developed responsive, interactive, and highly accessible web interfaces for various
+              high-profile clients.
+            </li>
+            <li>
+              Collaborated closely with UX/UI designers to translate Figma mockups into
+              pixel-perfect code.
+            </li>
             <li>Integrated third-party APIs and CMS platforms for dynamic content delivery.</li>
           </ul>
         </div>
@@ -238,14 +300,17 @@
     <div class="contact-card glass">
       <div class="contact-info">
         <h2>Let's build something <span class="text-gradient">amazing</span> together</h2>
-        <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-        
+        <p>
+          I'm currently open for new opportunities. Whether you have a question or just want to say
+          hi, I'll try my best to get back to you!
+        </p>
+
         <div class="contact-details">
           <div class="contact-item">
             <div class="contact-icon"><i class="ph ph-envelope-simple"></i></div>
             <div>
               <h4>Email</h4>
-              <p>hello&#64;janith.dev</p>
+              <p>mihiranga.office@gmail.com</p>
             </div>
           </div>
           <div class="contact-item">
@@ -261,17 +326,19 @@
         <form class="contact-form" (submit)="onSubmit($event)">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="John Doe" required>
+            <input type="text" id="name" placeholder="John Doe" required />
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="john@example.com" required>
+            <input type="email" id="email" placeholder="john@example.com" required />
           </div>
           <div class="form-group">
             <label for="message">Message</label>
             <textarea id="message" rows="4" placeholder="How can I help you?" required></textarea>
           </div>
-          <button type="submit" class="btn btn-primary w-full" style="justify-content: center;">Send Message <i class="ph ph-paper-plane-right"></i></button>
+          <button type="submit" class="btn btn-primary w-full" style="justify-content: center">
+            Send Message <i class="ph ph-paper-plane-right"></i>
+          </button>
         </form>
       </div>
     </div>
